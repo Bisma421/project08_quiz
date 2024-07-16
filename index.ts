@@ -75,7 +75,8 @@ switch (quiz.question3) {
 }
 
 switch (quiz.question4) {
-    case ";":
+    case ";"
+    :
         console.log(chalk.green`4. Correct!`);
         ++points;
         break;
